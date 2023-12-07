@@ -121,4 +121,8 @@ export class HousingService {
             housingLocation => housingLocation.id === id
         );
     }
+
+    public submitApplication(firstName: string, lastName: string, email: string): void {
+        console.log(firstName, lastName, email);
+    }
 }
